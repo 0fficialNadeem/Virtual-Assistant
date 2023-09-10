@@ -23,7 +23,7 @@ def main():
         vid = listen()
         say(f"Sure thing, Playing {vid}")
         action = Commands.Commands()
-        action.getVid(vid)
+        action.get_vid(vid)
     elif "weather" in task:
         say("For which city")
         city = listen()
